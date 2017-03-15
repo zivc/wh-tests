@@ -9,11 +9,15 @@ In the test documentation it purposely says use stdout, so I did, directly, inst
 >The input may contain multiple lines, consider each line of the input to be a separate set of words, and output each set of words on a new line. 
 >
 >*Example input:* 
+>
 >Welcome to William Hill 
+>
 >Enjoy the test 
 >
 >*Example output:*
+>
 >Hill William to Welcome 
+>
 >test the Enjoy 
 
 Usually I use `commander` package for CLI stuff, but this is straight forwards enough.
