@@ -25,6 +25,7 @@ Usually I use `commander` package for CLI stuff, but this is straight forwards e
 >
 >We can make 3p using the following two distinct combinations:
 >> 1p + 1p + 1p 
+>>
 >> 1p + 2p 
 >
 >Write a program that, when given an input Xp, outputs the number of distinct ways Xp can be produced using UK coins. You may expect the input to contain a single number for X on each line. Each type of coin may be used an arbitrary number of times.
