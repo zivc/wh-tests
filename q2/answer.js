@@ -33,7 +33,7 @@ getInput().then(
 		input.forEach(function(sum) {
 			sum = ~~sum; // fastest way to turn a string into an int - on the assumption it'll always be integers but in string type
 			process.stdout.write(repeatCombinatonsOfPennies(pennies.filter(function(penny) {
-				return penny <= sum;
+				return penny <= sum; // filtering out higher denomination coins that are greater than the sum itself
 			}), sum).length+'\n');
 
 		});
