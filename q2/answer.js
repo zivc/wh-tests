@@ -12,8 +12,7 @@ function repeatCombinatonsOfPennies(pennies, sumToCalculate) {
 		if (pos === sumToCalculate) {
 
 			if (data.reduce((prev,curr) => {
-				prev += curr;
-				return prev;
+				return prev += curr;
 			}, 0) === sumToCalculate) results.push(data.slice());
 			return;
 
